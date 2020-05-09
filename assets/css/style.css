@@ -136,8 +136,8 @@ p {
     overflow: hidden;
 }
 .card .floating-image-box .image-container img {
-    height: -webkit-fill-available;
-    width: auto;
+    height: auto;
+    width: 100%;
     margin: 0 -50%;
 }
 .card .floating-image-box::before {
