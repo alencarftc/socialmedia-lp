@@ -30,10 +30,10 @@ O módulo propôs que fosse desenhada uma landing page para um evento fictício 
 
 A partir disso, topei o desafio e fui além! 
 
-Fiz a prototipação do projeto, realizei a implementação seguindo o protótipo feito e preparei o deploy para testes.
+Fiz a prototipação do projeto, realizei a implementação seguindo o protótipo feito e preparei o deploy.
 
 Você pode testar a aplicação aqui no link abaixo: <br/>
-📄 **[Link para a aplicação](http://34.71.0.252:3000)**
+📄 **[Link para a aplicação](https://alencarfff.github.io/socialmedia-lp/)**
 
 ## :art: Protótipo
 O protótipo foi feito utilizando a ferramenta Figma. O mesmo está disponibilizado para navegação no link abaixo:
@@ -43,7 +43,7 @@ O protótipo foi feito utilizando a ferramenta Figma. O mesmo está disponibiliz
 ## :computer: Implementação
 O projeto foi implementado utilizando HTML5, CSS3, Javascript e a Grid do Bootstrap 4 para auxiliar na responsividade.
 
-Além disso, o deploy foi feito em um servidor Nginx utilizando Docker, hospedado no Google Cloud.
+Além disso, o deploy foi feito no Github Pages.
 
 ## :clap: Resultado
 
