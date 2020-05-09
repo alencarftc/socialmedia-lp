@@ -30,7 +30,7 @@ O módulo propôs que fosse desenhada uma landing page para um evento fictício 
 
 A partir disso, topei o desafio e fui além! 
 
-Fiz a prototipação do projeto, realizei a implementação seguindo o protótipo feito e preparei o deploy para testes.
+Fiz a prototipação do projeto, realizei a implementação seguindo o protótipo feito e preparei o deploy.
 
 Você pode testar a aplicação aqui no link abaixo: <br/>
 📄 **[Link para a aplicação](https://alencarfff.github.io/socialmedia-lp/)**
