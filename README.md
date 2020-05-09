@@ -1,4 +1,4 @@
-<h2 align="center">SocialMedia Webinar's Landing Page</h2>
+<h1 align="center">SocialMedia Webinar's Landing Page</h1>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/alencarfff/socialmedia-lp?color=%2304D361">
@@ -17,19 +17,20 @@
 <p align="center">
   <a href="#rocket-sobre-o-desafio">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#art-protótipo">Protótipo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-implementacao">Implementação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-implementação">Implementação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#clap-resultado">Resultado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#memo-licença">Licença</a>
 </p>
 
 ## :rocket: Sobre o projeto
 
-O projeto foi iniciado como uma tarefa do Módulo 06 - UI Design do curso Completo de Design de Interface, 
-onde foi proposto que fosse desenhada uma landing page para evento de Social Media, desde a UX até a sua UI. 
+O projeto foi iniciado como uma tarefa do Módulo 06 - UI Design do curso Completo de Design de Interface.
+
+O módulo propôs que fosse desenhada uma landing page para um evento fictício de Social Media, desde a UX até a sua UI. 
 
 A partir disso, topei o desafio e fui além! 
 
-Fiz a prototipação do projeto, realizei a implementação seguindo o protótipo e preparei o deploy para você testar.
+Fiz a prototipação do projeto, realizei a implementação seguindo o protótipo feito e preparei o deploy para testes.
 
 Você pode testar a aplicação aqui no link abaixo: <br/>
 📄 **[Link para a aplicação](http://34.71.0.252:3000)**
