@@ -3,7 +3,7 @@
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/alencarfff/socialmedia-lp?color=%2304D361">
 
-  <a href="https://felipealencar.dev">
+  <a href="https://linkedin.com/in/alencar-dev">
     <img alt="Made by Felipe Alencar" src="https://img.shields.io/badge/made%20by-Felipe%20Alencar-%2304D361">
   </a>
 
@@ -57,4 +57,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Feito por Felipe Alencar :wave:
+Feito por <a href="https://linkedin.com/in/alencar-dev" target="_blank">Felipe Alencar</a> :wave:
