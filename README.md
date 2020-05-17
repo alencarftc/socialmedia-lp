@@ -53,6 +53,9 @@ Et voilà. Este foi o resultado do projeto:
 
 <img src="https://raw.githubusercontent.com/alencarfff/socialmedia-lp/master/assets/img/socialmedia_screenshot.png" alt="Screenshot do resultado final do projeto SocialMedia"  />
 
+Você pode testar a aplicação aqui no link abaixo: <br/>
+**[Link para a aplicação](https://alencarfff.github.io/socialmedia-lp/)**
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
