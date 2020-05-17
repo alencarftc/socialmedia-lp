@@ -281,7 +281,7 @@ ul li {
 }
 
 /* SECTION-A */
-#section-a {
+#inicio {
     padding: 0;
     overflow: hidden;
     position: relative;
@@ -292,7 +292,7 @@ ul li {
     background-size: cover;
     background-color: #464646;
 }
-#section-a::before {
+#inicio::before {
     content: "";
     background: rgb(10,14,96);
     background: -moz-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
@@ -308,7 +308,7 @@ ul li {
     top: 0;
     left: 0;
 }
-#section-a .content {
+#inicio .content {
     position: absolute;
     top: 10px;
     left: 50%;
@@ -320,7 +320,7 @@ ul li {
     font-size: 20px;
     color: #FFF;
 }
-#section-a .nav-wrapper {
+#inicio .nav-wrapper {
     background: #34344a;
     display: inline-block;
     width: 100vw;
@@ -333,24 +333,24 @@ ul li {
     transform: translate(-50%, 0);
     box-shadow: 0 0 5px 2px #00000055;
 }
-#section-a nav ul {
+#inicio nav ul {
     display: flex;
 }
-#section-a nav li {
+#inicio nav li {
     padding: 0;
 }
-#section-a nav a {
+#inicio nav a {
     text-decoration: none;
     font-weight: 300;
     color: #FFF;
     text-transform: uppercase;
 }
-#section-a nav button.pri-btn {
+#inicio nav button.pri-btn {
     padding: 8px calc(10% + 7.5px);
     font-weight: 500;
 }
-#section-a nav a,
-#section-a nav button.pri-btn {
+#inicio nav a,
+#inicio nav button.pri-btn {
     font-size: calc(9px + .25vmax);
 }
 #main-panel {
@@ -397,37 +397,37 @@ ul li {
     display: inline-block;
     transform: skewX(37.5deg);
 }
-#section-a .info-item,
-#section-a .info-row {
+#inicio .info-item,
+#inicio .info-row {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#section-a .info-row {
+#inicio .info-row {
     margin: calc(10px + 4.5vh) 0 calc(20px + 3.5vh);
 }
-#section-a .info-item {
+#inicio .info-item {
     margin: 0 5%;
 }
-#section-a .info-item .icon {
+#inicio .info-item .icon {
     filter: drop-shadow(0px 1px 4px #59C3C3);
     width: calc(20px + 1vmax);
     margin-right: 10px;
 }
-#section-a .info-item .text {
+#inicio .info-item .text {
     font-size: calc(8px + 1vmax);
     color: #FFF;
 }
-#section-a .box-center {
+#inicio .box-center {
     margin: 0 auto;
 }
-#section-a .buttons-row button {
+#inicio .buttons-row button {
     font-size: calc(8px + .5vmax);
     padding: 12.5px calc(6.25% + 10px);
     margin: 0 1.25%;
 }
 
-#section-a #hamburger {
+#inicio #hamburger {
     display: none;
     cursor: pointer;
     user-select: none;
@@ -441,8 +441,8 @@ ul li {
     top: 12.5px;
     right: 20px;
 }
-#section-a #hamburger span::before,
-#section-a #hamburger span::after {
+#inicio #hamburger span::before,
+#inicio #hamburger span::after {
     transform: translate(-50%, -50%);
     position: absolute;
     content: "";
@@ -450,19 +450,19 @@ ul li {
     top: 50%;
     z-index: -1;
 }
-#section-a #hamburger span,
-#section-a #hamburger span::before,
-#section-a #hamburger span::after {
+#inicio #hamburger span,
+#inicio #hamburger span::before,
+#inicio #hamburger span::after {
     background: #EBEBEB;
     display: inline-block;
     width: 30px;
     height: 3px;
 }
 
-#section-a #hamburger span::before {
+#inicio #hamburger span::before {
     transform: translate(-50%, calc(-50% - 10px));
 }
-#section-a #hamburger span::after {
+#inicio #hamburger span::after {
     transform: translate(-50%, calc(-50% + 5px));
 }
 #photos-list {
@@ -494,7 +494,7 @@ ul li {
     overflow: hidden;
 }
 
-/* SECTION-B */
+/* evento */
 .floating-box-list li {
     margin: calc(45px + 3vmax) auto;
 }
@@ -637,7 +637,7 @@ ul li {
     #links {
         display: none;
     }
-    #section-a .buttons-row button {
+    #inicio .buttons-row button {
         width: 80%;
         margin-bottom: 10px;
     }
@@ -654,17 +654,17 @@ ul li {
 }
 
 @media screen and (max-width: 768px) {
-    #section-a nav .logo-container {
+    #inicio nav .logo-container {
         padding: 0;
     }
-    #section-a nav {
+    #inicio nav {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
         padding: 0 40px;
         margin: 0;
     }
-    #section-a #hamburger {
+    #inicio #hamburger {
         display: inline-block;
     }
 
@@ -711,10 +711,10 @@ ul li {
     #links {
         display: none;
     }
-    #section-b ul.floating-box-list li .floating-image-box {
+    #evento ul.floating-box-list li .floating-image-box {
         max-width: 360px;
     }
-    #section-b ul.floating-box-list li {     
+    #evento ul.floating-box-list li {     
         justify-content: center;
         text-align: center;
     }
@@ -752,7 +752,7 @@ ul li {
 
 @media screen and (min-width: 768px){
 
-    #section-b ul.floating-box-list li .float-box {
+    #evento ul.floating-box-list li .float-box {
         justify-content: space-between;
     }
 }
