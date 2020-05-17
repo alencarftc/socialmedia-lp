@@ -25,7 +25,8 @@
 ## :rocket: Sobre o projeto
 
 O projeto foi iniciado como uma tarefa do Módulo 06 - UI Design do curso Completo de Design de Interface.
-📄 **[Link para o curso](https://www.udemy.com/course/design-de-interface/)**
+
+**[Link para o curso](https://www.udemy.com/course/design-de-interface/)**
 
 O módulo propôs que fosse desenhada uma landing page para um evento fictício de Social Media, desde a UX até a sua UI. 
 
@@ -34,13 +35,13 @@ A partir disso, topei o desafio e fui além!
 Fiz a prototipação do projeto, realizei a implementação seguindo o protótipo feito e preparei o deploy.
 
 Você pode testar a aplicação aqui no link abaixo: <br/>
-📄 **[Link para a aplicação](https://alencarfff.github.io/socialmedia-lp/)**
+**[Link para a aplicação](https://alencarfff.github.io/socialmedia-lp/)**
 
 ## :art: Protótipo
 O protótipo inicialmente utilizando a ferramenta Quant-ux, porém conheci o figma mais pra frente, então montei o UX no quant e o UI no figma. Os links para navegação estão disponíveis logo abaixo:
 
-📄 **[Link para o protótipo UX](https://bit.ly/3cHf9QQ)**
-📄 **[Link para o protótipo UI](https://bit.ly/2AsTyNQ)**
+**[Link para o protótipo UX](https://bit.ly/3cHf9QQ)**
+**[Link para o protótipo UI](https://bit.ly/2AsTyNQ)**
 
 ## :computer: Implementação
 O projeto foi implementado utilizando HTML5, CSS3, Javascript e a Grid do Bootstrap 4 para auxiliar na responsividade.
