@@ -37,7 +37,7 @@ Você pode testar a aplicação aqui no link abaixo: <br/>
 **[Link para a aplicação](https://alencarfff.github.io/socialmedia-lp/)**
 
 ## :art: Protótipo
-O protótipo inicialmente utilizando a ferramenta Quant-ux, porém conheci o figma mais pra frente, então montei o UX no quant e o UI no figma. Os links para navegação estão disponíveis logo abaixo:
+O protótipo foi feito inicialmente utilizando a ferramenta Quant-ux, porém conheci o Figma mais pra frente, então montei o UX no quant e o UI no figma. Os links para navegação estão disponíveis logo abaixo:
 
 **[Link para o protótipo UX](https://bit.ly/3cHf9QQ)** <br/>
 **[Link para o protótipo UI](https://bit.ly/2AsTyNQ)**
