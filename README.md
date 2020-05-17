@@ -39,7 +39,7 @@ Você pode testar a aplicação aqui no link abaixo: <br/>
 ## :art: Protótipo
 O protótipo inicialmente utilizando a ferramenta Quant-ux, porém conheci o figma mais pra frente, então montei o UX no quant e o UI no figma. Os links para navegação estão disponíveis logo abaixo:
 
-**[Link para o protótipo UX](https://bit.ly/3cHf9QQ)**
+**[Link para o protótipo UX](https://bit.ly/3cHf9QQ)** <br/>
 **[Link para o protótipo UI](https://bit.ly/2AsTyNQ)**
 
 ## :computer: Implementação
