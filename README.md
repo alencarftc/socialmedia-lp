@@ -24,7 +24,7 @@
 
 ## :rocket: Sobre o projeto
 
-O projeto foi iniciado como uma tarefa do Módulo 06 - UI Design do curso Completo de Design de Interface.
+O projeto foi iniciado como uma tarefa do Módulo 06 - UI Design do curso Completo de Design de Interface.<br/>
 **[Link para o curso](https://www.udemy.com/course/design-de-interface/)**
 
 O módulo propôs que fosse desenhada uma landing page para um evento fictício de Social Media, desde a UX até a sua UI. 
