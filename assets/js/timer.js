@@ -11,7 +11,7 @@ class Timer {
     }
 
     start(countDownDate){
-        var x = setInterval(() => this._update(countDownDate) && clearInterval(x), 1000);
+        var x = setInterval(() => x > 0 ? this._update(countDownDate) && clearInterval(x) : '', 1000);
     }
 
     _update(countDownDate){
@@ -25,6 +25,13 @@ class Timer {
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+        if( days < 0 ){
+            days = 0;
+            hours = 0;
+            minutes = 0;
+            seconds = 0;
+        }
+        
         this._updateDom(days, hours, minutes, seconds);
 
         return distance < 0;
