@@ -11,8 +11,9 @@
     <meta name="generator" content="N/A">
     <meta name="robots" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="./assets/vendor/bootstrap-grid.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/vendor/bootstrap-grid.css">
     <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:ital,wght@0,400;0,500;0,800;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-chrome-192x192.png">
@@ -67,6 +68,7 @@
                 </div>
             </nav>
         </section>
+
         <div class="container content">            
             <div id="main-panel" class="justify-content-center align-self-center">
                 <div class="box neon-border-lg neon-border-cyan">
@@ -79,7 +81,7 @@
                 <div class="info-row">
                     <div class="info-item">
                         <img class="icon" src="./assets/icon/calendar.svg">
-                        <span class="text">23/05/2020</span>
+                        <span class="text">23/08/2020</span>
                     </div>
                     <div class="info-item">
                         <img class="icon" src="./assets/icon/clock.svg">
@@ -97,22 +99,38 @@
         <ul id="photos-list" class="row">
             <li class="col-6 col-sm-3">
                 <div class="image-box">
-                    <img src="./assets/img/pl-4.png" />
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="./assets/img/max-768px/pl-4-768px.png">
+                        <source media="(min-width: 768px)" srcset="./assets/img/pl-4.png">
+                        <img src="./assets/img/pl-4.png" alt="Three women laughing together">
+                    </picture>
                 </div>
             </li>
             <li class="col-6 d-none col-sm-3 d-sm-block">
                 <div class="image-box">
-                    <img src="./assets/img/pl-2.png" />
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="./assets/img/max-768px/pl-2-768px.png">
+                        <source media="(min-width: 768px)" srcset="./assets/img/pl-2.png">
+                        <img src="./assets/img/pl-2.png" alt="Three men laughing together">
+                    </picture>
                 </div>
             </li>
             <li class="col-6 col-sm-3">
                 <div class="image-box">
-                    <img src="./assets/img/pl-1.png" />
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="./assets/img/max-768px/pl-1-768px.png">
+                        <source media="(min-width: 768px)" srcset="./assets/img/pl-1.png">
+                        <img src="./assets/img/pl-1.png" alt="People in a music show">
+                    </picture>
                 </div>
             </li>
             <li class="col-6 d-none col-sm-3 d-sm-block">
                 <div class="image-box">
-                    <img src="./assets/img/pl-3.png" />
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="./assets/img/max-768px/pl-3-768px.png">
+                        <source media="(min-width: 768px)" srcset="./assets/img/pl-3.png">
+                        <img src="./assets/img/pl-3.png" alt="Three women talking to each other">
+                    </picture>
                 </div>
             </li>
         </ul>
@@ -124,7 +142,11 @@
                 <div class="purple float-box row align-items-center">
                     <div class="col-12 col-md-offset-1 col-md-5">
                         <div class="floating-image-box">
-                            <img src="./assets/img/fb-1.png" />
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/fb-1-768px.png">
+                                <source media="(min-width: 768px)" srcset="./assets/img/fb-1.png">
+                                <img src="./assets/img/fb-1.png" alt="A lot of people in an event">
+                            </picture>                                    
                         </div>
                     </div>
                     <div class="col-12 col-sm-offset-1 col-md-6">
@@ -137,7 +159,11 @@
                 <div class="cyan float-box row align-items-center">
                     <div class="col-12 col-md-offset-1 col-md-5">
                         <div class="floating-image-box">
-                            <img src="./assets/img/fb-2.png" />
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/fb-2-768px.png">
+                                <source media="(min-width: 768px)" srcset="./assets/img/fb-2.png">
+                                <img src="./assets/img/fb-2.png" alt="Some people watching an apresentation">
+                            </picture>                                    
                         </div>
                     </div>
                     <div class="col-12 col-sm-offset-1 col-md-6">
@@ -150,7 +176,11 @@
                 <div class="pink float-box row align-items-center">
                     <div class="col-12 col-md-offset-1 col-md-5">
                         <div class="floating-image-box">
-                            <img src="./assets/img/fb-3.png" />
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/fb-3-768px.png">
+                                <source media="(min-width: 768px)" srcset="./assets/img/fb-3.png">
+                                <img src="./assets/img/fb-3.png" alt="Men typing in a laptop">
+                            </picture>                                    
                         </div>
                     </div>
                     <div class="col-12 col-sm-offset-1 col-md-6">
@@ -168,88 +198,157 @@
             <li class="col-12 col-sm-6 col-md-4 col-xl-3">
                 <div class="card">
                     <div class="floating-image-box">
-                        <div class="image-container"><img src="./assets/img/woman.jpg" /></div>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jpg">
+                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
+                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                            </picture>                                    
+                        </div>
                     </div>
                     <h4>Lorem ipsum</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio optio nostrum assumenda veritatis, quis in.</p>
                 </div>
             </li>
+
             <li class="col-12 col-sm-6 col-md-4 col-xl-3">
                 <div class="card">
                     <div class="floating-image-box">
-                        <div class="image-container"><img src="./assets/img/woman.jpg" /></div>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jpg">
+                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
+                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                            </picture>                                    
+                        </div>
                     </div>
                     <h4>Lorem ipsum</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio optio nostrum assumenda veritatis, quis in.</p>
                 </div>
             </li>
+
             <li class="col-12 col-sm-6 col-md-4 col-xl-3">
                 <div class="card">
                     <div class="floating-image-box">
-                        <div class="image-container"><img src="./assets/img/woman.jpg" /></div>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jpg">
+                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
+                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                            </picture>                                    
+                        </div>
                     </div>
                     <h4>Lorem ipsum</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio optio nostrum assumenda veritatis, quis in.</p>
                 </div>
             </li>
+
             <li class="col-12 col-sm-6 col-md-4 col-xl-3">
                 <div class="card">
                     <div class="floating-image-box">
-                        <div class="image-container"><img src="./assets/img/woman.jpg" /></div>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jpg">
+                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
+                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                            </picture>                                    
+                        </div>
                     </div>
                     <h4>Lorem ipsum</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio optio nostrum assumenda veritatis, quis in.</p>
                 </div>
             </li>
+
             <li class="col-12 col-sm-6 col-md-4 col-xl-3">
                 <div class="card">
                     <div class="floating-image-box">
-                        <div class="image-container"><img src="./assets/img/woman.jpg" /></div>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jpg">
+                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
+                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                            </picture>                                    
+                        </div>
                     </div>
                     <h4>Lorem ipsum</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio optio nostrum assumenda veritatis, quis in.</p>
                 </div>
             </li>
+
             <li class="col-12 col-sm-6 col-md-4 col-xl-3">
                 <div class="card">
                     <div class="floating-image-box">
-                        <div class="image-container"><img src="./assets/img/woman.jpg" /></div>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jpg">
+                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
+                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                            </picture>                                    
+                        </div>
                     </div>
                     <h4>Lorem ipsum</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio optio nostrum assumenda veritatis, quis in.</p>
                 </div>
             </li>
+
             <li class="col-12 col-sm-6 col-md-4 col-xl-3">
                 <div class="card">
                     <div class="floating-image-box">
-                        <div class="image-container"><img src="./assets/img/woman.jpg" /></div>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jpg">
+                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
+                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                            </picture>                                    
+                        </div>
                     </div>
                     <h4>Lorem ipsum</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio optio nostrum assumenda veritatis, quis in.</p>
                 </div>
             </li>
+
             <li class="col-12 col-sm-6 col-md-4 col-xl-3">
                 <div class="card">
                     <div class="floating-image-box">
-                        <div class="image-container"><img src="./assets/img/woman.jpg" /></div>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jpg">
+                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
+                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                            </picture>                                    
+                        </div>
                     </div>
                     <h4>Lorem ipsum</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio optio nostrum assumenda veritatis, quis in.</p>
                 </div>
             </li>
-            <li class="col-12 col-sm-6 col-md-4 col-xl-3 offset-xl-3">
+
+            <li class="col-12 col-sm-6 col-md-4 offset-xl-3 offset-sm-0 col-xl-3">
                 <div class="card">
                     <div class="floating-image-box">
-                        <div class="image-container"><img src="./assets/img/woman.jpg" /></div>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jpg">
+                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
+                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                            </picture>                                    
+                        </div>
                     </div>
                     <h4>Lorem ipsum</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio optio nostrum assumenda veritatis, quis in.</p>
                 </div>
             </li>
-            <li class="col-12 col-sm-6 col-md-4 offset-md-4 offset-xl-0 col-xl-3">
+
+            <li class="col-12 col-sm-6 col-md-4 col-xl-3 offset-md-4 offset-sm-0 offset-xl-0">
                 <div class="card">
                     <div class="floating-image-box">
-                        <div class="image-container"><img src="./assets/img/woman.jpg" /></div>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jpg">
+                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
+                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                            </picture>                                    
+                        </div>
                     </div>
                     <h4>Lorem ipsum</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio optio nostrum assumenda veritatis, quis in.</p>
