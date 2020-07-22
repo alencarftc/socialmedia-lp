@@ -26,24 +26,10 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png" type="image/png">
     <meta name="theme-color" content="#dc136c">
     <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:ital,wght@0,400;0,500;0,800;1,200&display=swap" rel="stylesheet">
-    <style>
-        #inicio {
-            padding: 0;
-            overflow: hidden;
-            position: relative;
-            min-height: 100vh;
-            background: url('/assets/img/main_bg.png') no-repeat center center, linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
-            background: url('/assets/img/main_bg.png') no-repeat center center, -moz-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
-            background: url('/assets/img/main_bg.png') no-repeat center center, -webkit-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
-            background: url('/assets/img/main_bg.png') no-repeat center center, -o-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
-            background-size: cover;
-        }
-    </style>
-
-    <link rel="preload" href="./assets/vendor/bootstrap-grid.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="image" href="assets/img/main_bg.png">
+    <link rel="preload" href="./assets/vendor/bootstrap-grid.min.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="./assets/vendor/normalize.min.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="./assets/vendor/bootstrap-grid.min.css"></noscript>    
-
-    <link rel="preload" href="./assets/vendor/normalize.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="./assets/vendor/normalize.min.css"></noscript>    
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124242732-3"></script>
