@@ -284,7 +284,7 @@ ul li {
     overflow: hidden;
     position: relative;
     min-height: 100vh;
-    background: url('../img/main_bg.png') no-repeat center center;
+    background: url('../img/main_bg.webp') no-repeat center center;
     background-size: cover;
 }
 #inicio::before {
