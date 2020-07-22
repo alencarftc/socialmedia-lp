@@ -284,10 +284,7 @@ ul li {
     overflow: hidden;
     position: relative;
     min-height: 100vh;
-    background: url('../img/main_bg.png') no-repeat center center, linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
-    background: url('../img/main_bg.png') no-repeat center center, -moz-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
-    background: url('../img/main_bg.png') no-repeat center center, -webkit-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
-    background: url('../img/main_bg.png') no-repeat center center, -o-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
+    background: url('../img/main_bg.png') no-repeat center center;
     background-size: cover;
 }
 #inicio::before {
