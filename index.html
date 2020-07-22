@@ -12,25 +12,40 @@
     <meta name="robots" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="./assets/vendor/normalize.min.css">
-    <link rel="stylesheet" href="./assets/css/home.min.css">
-    <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="194x194" href="./favicon/favicon-194x194.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-chrome-192x192.png" type="image/png">
+    <link rel="icon" type="image/png" sizes="194x194" href="./favicon/favicon-194x194.png" type="image/png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" type="image/png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon//apple-touch-icon.png" type="image/png">
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#34344a">
     <link rel="manifest" href="./site.webmanifest">
     <link rel="icon" href="/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="SocialMedia Experience">
     <meta name="application-name" content="SocialMedia Experience">
     <meta name="msapplication-TileColor" content="#34344a">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" type="image/png">
     <meta name="theme-color" content="#dc136c">
     <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:ital,wght@0,400;0,500;0,800;1,200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.min.css">
-    <link rel="stylesheet" href="./assets/vendor/bootstrap-grid.min.css">
+    <style>
+        #inicio {
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+            min-height: 100vh;
+            background: url('/assets/img/main_bg.png') no-repeat center center, linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
+            background: url('/assets/img/main_bg.png') no-repeat center center, -moz-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
+            background: url('/assets/img/main_bg.png') no-repeat center center, -webkit-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
+            background: url('/assets/img/main_bg.png') no-repeat center center, -o-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
+            background-size: cover;
+        }
+    </style>
+
+    <link rel="preload" href="./assets/css/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./assets/css/style.min.css"></noscript>    
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <link rel="preload" href="./assets/vendor/bootstrap-grid.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./assets/vendor/bootstrap-grid.min.css"></noscript>    
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124242732-3"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -100,36 +115,36 @@
             <li class="col-6 col-sm-3">
                 <div class="image-box">
                     <picture>
-                        <source media="(max-width: 768px)" srcset="./assets/img/max-768px/pl-4-768px.jp2">
-                        <source media="(min-width: 768px)" srcset="./assets/img/pl-4.png">
-                        <img src="./assets/img/pl-4.png" alt="Three women laughing together">
+                        <source media="(max-width: 768px)" srcset="/assets/img/max-768px/pl-4-768px.jp2" type="image/jp2">
+                        <source media="(min-width: 768px)" srcset="/assets/img/pl-4.png" type="image/png">
+                        <img src="/assets/img/pl-4.png" alt="Three women laughing together">
                     </picture>
                 </div>
             </li>
             <li class="col-6 d-none col-sm-3 d-sm-block">
                 <div class="image-box">
                     <picture>
-                        <source media="(max-width: 768px)" srcset="./assets/img/max-768px/pl-2-768px.jp2">
-                        <source media="(min-width: 768px)" srcset="./assets/img/pl-2.png">
-                        <img src="./assets/img/pl-2.png" alt="Three men laughing together">
+                        <source media="(max-width: 768px)" srcset="/assets/img/max-768px/pl-2-768px.jp2" type="image/jp2">
+                        <source media="(min-width: 768px)" srcset="/assets/img/pl-2.png" type="image/png">
+                        <img src="/assets/img/pl-2.png" alt="Three men laughing together">
                     </picture>
                 </div>
             </li>
             <li class="col-6 col-sm-3">
                 <div class="image-box">
                     <picture>
-                        <source media="(max-width: 768px)" srcset="./assets/img/max-768px/pl-1-768px.jp2">
-                        <source media="(min-width: 768px)" srcset="./assets/img/pl-1.png">
-                        <img src="./assets/img/pl-1.png" alt="People in a music show">
+                        <source media="(max-width: 768px)" srcset="/assets/img/max-768px/pl-1-768px.jp2" type="image/jp2">
+                        <source media="(min-width: 768px)" srcset="/assets/img/pl-1.png" type="image/png">
+                        <img src="/assets/img/pl-1.png" alt="People in a music show">
                     </picture>
                 </div>
             </li>
             <li class="col-6 d-none col-sm-3 d-sm-block">
                 <div class="image-box">
                     <picture>
-                        <source media="(max-width: 768px)" srcset="./assets/img/max-768px/pl-3-768px.jp2">
-                        <source media="(min-width: 768px)" srcset="./assets/img/pl-3.png">
-                        <img src="./assets/img/pl-3.png" alt="Three women talking to each other">
+                        <source media="(max-width: 768px)" srcset="/assets/img/max-768px/pl-3-768px.jp2" type="image/jp2">
+                        <source media="(min-width: 768px)" srcset="/assets/img/pl-3.png" type="image/png">
+                        <img src="/assets/img/pl-3.png" alt="Three women talking to each other">
                     </picture>
                 </div>
             </li>
@@ -143,9 +158,9 @@
                     <div class="col-12 col-md-offset-1 col-md-5">
                         <div class="floating-image-box">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/fb-1-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/fb-1.png">
-                                <img src="./assets/img/fb-1.png" alt="A lot of people in an event">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/fb-1-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/fb-1.png" type="image/png">
+                                <img src="/assets/img/fb-1.png" alt="A lot of people in an event">
                             </picture>                                    
                         </div>
                     </div>
@@ -160,9 +175,9 @@
                     <div class="col-12 col-md-offset-1 col-md-5">
                         <div class="floating-image-box">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/fb-2-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/fb-2.png">
-                                <img src="./assets/img/fb-2.png" alt="Some people watching an apresentation">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/fb-2-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/fb-2.png" type="image/png">
+                                <img src="/assets/img/fb-2.png" alt="Some people watching an apresentation">
                             </picture>                                    
                         </div>
                     </div>
@@ -177,9 +192,9 @@
                     <div class="col-12 col-md-offset-1 col-md-5">
                         <div class="floating-image-box">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/fb-3-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/fb-3.png">
-                                <img src="./assets/img/fb-3.png" alt="Men typing in a laptop">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/fb-3-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/fb-3.png" type="image/png">
+                                <img src="/assets/img/fb-3.png" alt="Men typing in a laptop">
                             </picture>                                    
                         </div>
                     </div>
@@ -200,9 +215,9 @@
                     <div class="floating-image-box">
                         <div class="image-container">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
-                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/woman-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/woman.jpg">
+                                <img src="/assets/img/woman.jpg" alt="A woman with arms crossed">
                             </picture>                                    
                         </div>
                     </div>
@@ -216,9 +231,9 @@
                     <div class="floating-image-box">
                         <div class="image-container">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
-                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/woman-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/woman.jpg">
+                                <img src="/assets/img/woman.jpg" alt="A woman with arms crossed">
                             </picture>                                    
                         </div>
                     </div>
@@ -232,9 +247,9 @@
                     <div class="floating-image-box">
                         <div class="image-container">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
-                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/woman-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/woman.jpg">
+                                <img src="/assets/img/woman.jpg" alt="A woman with arms crossed">
                             </picture>                                    
                         </div>
                     </div>
@@ -248,9 +263,9 @@
                     <div class="floating-image-box">
                         <div class="image-container">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
-                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/woman-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/woman.jpg">
+                                <img src="/assets/img/woman.jpg" alt="A woman with arms crossed">
                             </picture>                                    
                         </div>
                     </div>
@@ -264,9 +279,9 @@
                     <div class="floating-image-box">
                         <div class="image-container">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
-                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/woman-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/woman.jpg">
+                                <img src="/assets/img/woman.jpg" alt="A woman with arms crossed">
                             </picture>                                    
                         </div>
                     </div>
@@ -280,9 +295,9 @@
                     <div class="floating-image-box">
                         <div class="image-container">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
-                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/woman-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/woman.jpg">
+                                <img src="/assets/img/woman.jpg" alt="A woman with arms crossed">
                             </picture>                                    
                         </div>
                     </div>
@@ -296,9 +311,9 @@
                     <div class="floating-image-box">
                         <div class="image-container">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
-                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/woman-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/woman.jpg">
+                                <img src="/assets/img/woman.jpg" alt="A woman with arms crossed">
                             </picture>                                    
                         </div>
                     </div>
@@ -312,9 +327,9 @@
                     <div class="floating-image-box">
                         <div class="image-container">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
-                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/woman-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/woman.jpg">
+                                <img src="/assets/img/woman.jpg" alt="A woman with arms crossed">
                             </picture>                                    
                         </div>
                     </div>
@@ -328,9 +343,9 @@
                     <div class="floating-image-box">
                         <div class="image-container">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
-                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/woman-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/woman.jpg">
+                                <img src="/assets/img/woman.jpg" alt="A woman with arms crossed">
                             </picture>                                    
                         </div>
                     </div>
@@ -344,9 +359,9 @@
                     <div class="floating-image-box">
                         <div class="image-container">
                             <picture>
-                                <source media="(max-width: 768px)" srcset="./assets/img/max-768px/woman-768px.jp2">
-                                <source media="(min-width: 768px)" srcset="./assets/img/woman.jpg">
-                                <img src="./assets/img/woman.jpg" alt="A woman with arms crossed">
+                                <source media="(max-width: 768px)" srcset="/assets/img/max-768px/woman-768px.jp2" type="image/jp2">
+                                <source media="(min-width: 768px)" srcset="/assets/img/woman.jpg">
+                                <img src="/assets/img/woman.jpg" alt="A woman with arms crossed">
                             </picture>                                    
                         </div>
                     </div>
@@ -426,18 +441,6 @@
         </div>
         <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
     </footer>
-    <script src="./assets/js/timer.js"></script>
-    <script>
-        class Menu {
-            constructor(){
-                this._isOpen = false;
-            }
-            
-            static toggle(){
-                this._isOpen = !this._isOpen;
-                return this._isOpen
-            }
-        }
-    </script>
+    <script defer src="./assets/js/timer.js"></script>
 </body>
 </html>
