@@ -5,17 +5,16 @@
     overflow: hidden;
     position: relative;
     min-height: 100vh;
-    background-image: url('../img/max-768px/main_bg-768px.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #464646;
+    background: url('../img/max-768px/main_bg-768px.png') no-repeat center center cover, linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
+    background: url('../img/max-768px/main_bg-768px.png') no-repeat center center cover, -moz-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
+    background: url('../img/max-768px/main_bg-768px.png') no-repeat center center cover, -webkit-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
+    background: url('../img/max-768px/main_bg-768px.png') no-repeat center center cover, -o-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
 }
 #inicio::before {
     content: "";
     background: rgb(10,14,96);
-    background: -moz-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
+    background: (180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
+    background: (180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
     background: linear-gradient(180deg, rgba(10,14,96,1) 0%, rgba(74,21,186,1) 25%, rgba(159,33,190,1) 50%, rgba(186,23,143,1) 75%, rgba(101,9,50,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0e60",endColorstr="#650932",GradientType=1);
     display: inline-block;
