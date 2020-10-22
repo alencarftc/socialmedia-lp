@@ -51,7 +51,7 @@ Além disso, o deploy foi feito no Github Pages.
 
 Et voilà. Este foi o resultado do projeto:
 
-<img src="https://raw.githubusercontent.com/alencarfff/socialmedia-lp/master/assets/img/socialmedia_screenshot.png" alt="Screenshot do resultado final do projeto SocialMedia"  />
+<img src="https://raw.githubusercontent.com/alencarfff/socialmedia-lp/master/assets/img/png/socialmedia_screenshot.png" alt="Screenshot do resultado final do projeto SocialMedia"  />
 
 Você pode testar a aplicação aqui no link abaixo: <br/>
 **[Link para a aplicação](https://alencarfff.github.io/socialmedia-lp/)**
